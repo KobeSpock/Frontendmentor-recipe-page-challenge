@@ -1,0 +1,158 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 10% 20%;
+}
+
+article {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.hero-img {
+    border-radius: 10px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+
+.list-highlight {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ol li::marker {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+ul li::marker {
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(14, 45%, 36%);
+}
+
+.list-highlight li::marker {
+    color: hsl(332, 51%, 32%); 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-left: 20px;
+    line-height: 3;
+    width: 13%;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.col-1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.col-2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%); 
+}
+
+.highlight {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+#ingredients {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 15px;
+}
+
+#instructions {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 15px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0px;
+    }
+    
+    article {
+      padding: 0px;
+      border-radius: 0px;
+    }
+
+    .hero-img {
+        border-radius: 0px;  
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper {
+        margin: 0px 8%;
+    }
+
+  }
